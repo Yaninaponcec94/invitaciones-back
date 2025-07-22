@@ -17,6 +17,7 @@ export class InvitacionesService {
     return {
       id: invitacion._id?.toString() ?? '',
       nombre: invitacion.nombre,
+      salon: invitacion.salon,
       direccion: invitacion.direccion,
       fecha: invitacion.fecha,
       hora: invitacion.hora,

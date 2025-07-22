@@ -9,6 +9,9 @@ export class Invitacion {
   nombre: string;
 
   @Prop({ required: true })
+  salon: string;
+
+  @Prop({ required: true })
   direccion: string;
 
   @Prop()

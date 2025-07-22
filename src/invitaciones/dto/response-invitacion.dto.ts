@@ -1,6 +1,7 @@
 export class ResponseInvitacionDto {
   id: string;
   nombre: string;
+  salon: string;
   direccion: string;
   fecha?: string;
   hora?: string;
