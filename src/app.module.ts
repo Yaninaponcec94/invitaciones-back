@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule } from '@nestjs/config';
-import { InvitacionesModule } from './invitaciones/invitaciones.module';
+import { InvitacionesModule } from './invitaciones/invitaciones.module'; //comentario
 @Module({
   imports: [
     ConfigModule.forRoot(),
