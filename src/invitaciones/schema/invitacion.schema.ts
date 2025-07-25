@@ -15,7 +15,7 @@ export class Invitacion {
   direccion: string;
 
   @Prop()
-  fecha?: string;
+  dia?: string;
 
   @Prop()
   hora?: string;

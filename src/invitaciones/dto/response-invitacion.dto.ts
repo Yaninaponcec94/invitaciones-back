@@ -3,7 +3,7 @@ export class ResponseInvitacionDto {
   nombre: string;
   salon: string;
   direccion: string;
-  fecha?: string;
+  dia?: string;
   hora?: string;
   horaHasta?: string;
   telefono?: string;

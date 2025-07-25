@@ -19,7 +19,7 @@ export class InvitacionesService {
       nombre: invitacion.nombre,
       salon: invitacion.salon,
       direccion: invitacion.direccion,
-      fecha: invitacion.fecha,
+      dia: invitacion.dia,
       hora: invitacion.hora,
       horaHasta: invitacion.horaHasta,
       telefono: invitacion.telefono,
